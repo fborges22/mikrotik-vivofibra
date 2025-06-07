@@ -1,15 +1,15 @@
-# MikroTik Example for Vivo Fibra
+# Exemplo MikroTik para Vivo Fibra
 
-This repository provides scripts to configure MikroTik routers for use with Vivo Fibra internet service. The scripts have been tested on the RB750GR3 and are designed to be compatible with other MikroTik router models as well.
+Este repositório contém scripts para configurar roteadores MikroTik para uso com o serviço de internet Vivo Fibra. Os scripts foram testados no RB750GR3 e foram projetados para serem compatíveis com outros modelos de roteadores MikroTik.
 
-Available Scripts
+Scripts Disponíveis
 
 ## vivofibra.rsc
 
-This script provides a complete configuration to set up your MikroTik router for immediate use with Vivo Fibra.
+Este script fornece uma configuração completa para configurar seu roteador MikroTik para uso imediato com o Vivo Fibra.
 
-Recommendation: It's highly recommended to perform a factory reset of your MikroTik router before loading this script. This ensures a clean configuration and avoids potential conflicts with existing settings.
+Recomendação: É altamente recomendável realizar uma redefinição de fábrica do seu roteador MikroTik antes de carregar este script. Isso garante uma configuração limpa e evita potenciais conflitos com as configurações existentes.
 
 ## fix_vivofibra.rsc
 
-This script is designed for MikroTik routers that are already configured, particularly those with existing Vivo Fibra PPPoE login settings. Its primary purpose is to resolve common navigation issues related to IPv6 within the Vivo Fibra network.
+Este script foi desenvolvido para roteadores MikroTik já configurados, especialmente aqueles com configurações de login PPPoE da Vivo Fibra. Seu objetivo principal é resolver problemas comuns de navegação relacionados ao IPv6 na rede Vivo Fibra.
