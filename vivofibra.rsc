@@ -2,7 +2,6 @@
 # CONFIGURAÇÃO COMPLETA DO MIKROTIK COM PROVEDOR VIVO FIBRA.
 # Testes foram realizados com sucesso e está funcionando dentro dos parâmetros normais de funcionamento
 #
-/disk add parent=sd1 partition-number=1 partition-offset=512 partition-size=15931538944 type=partition
 /interface bridge add admin-mac=87:13:1B:1D:D5:0D auto-mac=no comment=defconf name=bridgeLocal port-cost-mode=short
 /interface ethernet set [ find default-name=ether1 ] comment=Internet
 /interface ethernet set [ find default-name=ether2 ] comment=Switch1
